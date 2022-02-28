@@ -20,4 +20,9 @@ Here are some ideas to get you started:
 <!-- ![HelloAndyZhang](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue) -->
 
 <!--START_SECTION:waka-->
+
+```text
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
