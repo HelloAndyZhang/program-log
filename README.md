@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 <!-- ![](https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=cobalt) -->
 
-<!-- ![HelloAndyZhang](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue) -->
+![HelloAndyZhang](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue) 
 
 <!--START_SECTION:waka-->
 
