@@ -1,6 +1,7 @@
 name: WakaTime Readme
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
@@ -14,3 +15,6 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          SHOW_TOTAL: true
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
