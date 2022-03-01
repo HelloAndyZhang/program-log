@@ -15,9 +15,14 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<!-- ![](https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=cobalt) -->
+<!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=cobalt) -->
 
-![HelloAndyZhang](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue) 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact)](https://github.com/HelloAndyZhang/github-readme-stats)
+
+
+![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue&custom_title=我搬过的砖) 
+
+
 
 <!--START_SECTION:waka-->
 
