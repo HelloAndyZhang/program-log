@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact)
 
 
-![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue) 
+<!-- ![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue)  -->
 
 
 
