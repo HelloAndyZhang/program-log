@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 <!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=cobalt) -->
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact)
+<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact) -->
 
 
 <!-- ![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue)  -->
