@@ -1,6 +1,13 @@
 ### Hi there 👋
 
 ![R](image/20220304/header_.bzdxkhl6c94.webp)
+
+##### Badges
+
+[![wakatime](https://wakatime.com/badge/user/3c2a8d5a-32f6-4f22-9e9f-3b453aa8478a.svg)](https://wakatime.com/@3c2a8d5a-32f6-4f22-9e9f-3b453aa8478a)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/HelloAndyZhang/HelloAndyZhang)
+
+
 <!--
 **HelloAndyZhang/HelloAndyZhang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
