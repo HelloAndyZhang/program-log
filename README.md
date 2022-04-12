@@ -35,16 +35,16 @@ Here are some ideas to get you started:
 <!--START_SECTION:waka-->
 
 ```text
-From: 03 April 2022 - To: 10 April 2022
+From: 04 April 2022 - To: 11 April 2022
 
-Total Time: 15 hrs 9 mins
+Total Time: 20 hrs 12 mins
 
-JavaScript   4 hrs 42 mins   ⚅⚅⚅⚅⚅⚅⚅⚃▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   30.47 %
-TypeScript   4 hrs 25 mins   ⚅⚅⚅⚅⚅⚅⚅⚀▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   28.63 %
-Vue.js       2 hrs 28 mins   ⚅⚅⚅⚅▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   15.99 %
-JSON         1 hr 51 mins    ⚅⚅⚅▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   11.98 %
-YAML         49 mins         ⚅⚁▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   05.37 %
-Markdown     25 mins         ⚃▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   02.72 %
+TypeScript   6 hrs 24 mins   ⚅⚅⚅⚅⚅⚅⚅⚃▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   30.48 %
+JavaScript   6 hrs 3 mins    ⚅⚅⚅⚅⚅⚅⚅⚀▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   28.84 %
+Vue.js       3 hrs 25 mins   ⚅⚅⚅⚅▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   16.26 %
+JSON         2 hrs 27 mins   ⚅⚅⚅▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   11.69 %
+YAML         49 mins         ⚅▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   03.95 %
+Other        48 mins         ⚅▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢   03.84 %
 ```
 
 <!--END_SECTION:waka-->
