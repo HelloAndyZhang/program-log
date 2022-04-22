@@ -1,3 +1,8 @@
+---
+lang: zh-CN
+title: 页面的标题
+description: 页面的描述
+---
 
 ```shell
 # 查看 npm 的版本 

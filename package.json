@@ -1,0 +1,12 @@
+{
+  "name": "HelloAndyZhang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:HelloAndyZhang/HelloAndyZhang.git",
+  "author": "helloandyzhang <972997077@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
