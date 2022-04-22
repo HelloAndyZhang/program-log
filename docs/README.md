@@ -1,7 +1,9 @@
 ---
 home: true
-title: Home
-# heroImage: /images/hero.png
+heroText: null
+tagline: null
+# title: Home
+# heroImage: /images/wallhaven-9m92rx_3840x2160.4eo3ymbtihw0.png
 # actions:
 #   - text: Get Started
 #     link: /guide/getting-started.html
@@ -24,3 +26,5 @@ title: Home
 #     details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
 # footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
+
+![CODE](/images/header_.bzdxkhl6c94.webp)
