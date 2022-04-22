@@ -1,23 +1,42 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
 
 export const Sidebar: SidebarConfig = {
+    '/Project/':[
+        '/Project/README.md',
+    ],
     '/FE/': [
         {
-            text: '前端',
+            text: '常用工具',
             children: [
                 '/FE/git.md',
                 '/FE/npm.md',
-                '/FE/前端技术方案模板.md',
                 '/FE/web_workflow.v1.md',
-            ],
+            ],   
+            collapsible: true, 
+        },
+        {
+            text: 'React',
+            children: [
+                '/FE/react.md',
+            ], 
+            collapsible: true,    
+        },
+        {
+            text: 'Vue',
+            children: [
+                '/FE/vue.md',
+            ],    
+            collapsible: true, 
         },
     ],
     '/MacOS/': [
-        {
-            text: 'MacOS',
-            children: [
-                '/MacOS/mac_shortcuts.md',
-            ],
-        },
+        '/MacOS/mac_shortcuts.md',
+        '/MacOS/README.md',
+        // {
+        //     text: '命令',
+        //     children: [
+
+        //     ],
+        // },
     ],
 }

@@ -1,5 +1,5 @@
 {
-  "name": "HelloAndyZhang",
+  "name": "helloandyzhang",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:HelloAndyZhang/HelloAndyZhang.git",
@@ -11,5 +11,9 @@
   },
   "dependencies": {
     "vuepress": "^2.0.0-beta.39"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-git": "^2.0.0-beta.38",
+    "@vuepress/plugin-search": "^2.0.0-beta.38"
   }
 }

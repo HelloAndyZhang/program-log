@@ -10,4 +10,8 @@ export const Navbar: NavbarConfig = [
       text: 'MacOS',
       link: '/MacOS/',
     },
+    {
+      text: 'Project',
+      link: '/Project/',
+    }
 ]

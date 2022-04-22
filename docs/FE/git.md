@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 title: Git
-description: 页面的描述
+description: Git的的文档
 ---
 
 一、新建代码库

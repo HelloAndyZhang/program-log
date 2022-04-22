@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 title: NPM
-description: 页面的描述
+description: NPM的文档
 ---
 
 ```shell
