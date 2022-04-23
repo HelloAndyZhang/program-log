@@ -9,6 +9,12 @@ export default defineHopeConfig({
         href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
       },
     ],
+    [
+      "script",
+      {
+        src: "js/trackEvent.js"
+      }
+    ]
   ],
   // 站点配置
   lang: 'zh-CN',
