@@ -3,7 +3,7 @@ import { Navbar } from './configs/navbar';
 import { Sidebar } from './configs/sidebar';
 
 export default defineThemeConfig({
-  // hostname,
+  hostname:"https://tgy.ink",
   // logo: 'https://vuejs.org/images/logo.png',
   docsDir: 'docs',
   pageInfo: ['Author', 'Original', 'Date', 'Category', 'Tag', 'ReadingTime'],

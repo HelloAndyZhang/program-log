@@ -1,11 +1,12 @@
 import { defineHopeConfig } from "vuepress-theme-hope";
 import themeConfig from "./themeConfig";
+const base = '/HelloAndyZhang/'
 export default defineHopeConfig({
   // 站点配置
   lang: 'zh-CN',
   title: '阑风伏雨',
   description: '常用文档',
-  base: '/HelloAndyZhang/',
+  // base,
   head: [
     [
       "link",
@@ -14,13 +15,21 @@ export default defineHopeConfig({
         href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
       },
     ],
-    // [
-    //   "script",
-    //   {
-    //     type: "text/javascript",
-    //     src: `/js/trackEvent.js`
-    //   }
-    // ]
+    [
+      "link",
+      {
+        rel: "icon",
+        href:"https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-emoji-emoji-justicon-lineal-color-justicon-9.png"
+      }
+    ],
+    [
+      "script",
+      {
+        type: "text/javascript",
+
+        src: `/js/trackEvent.js`,
+      }
+    ]
   ],
   // 主题和它的配置
   // theme: '@vuepress/theme-default',
