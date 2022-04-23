@@ -12,7 +12,8 @@ export default defineHopeConfig({
     [
       "script",
       {
-        src: "js/trackEvent.js"
+        type: "text/javascript",
+        src: "/js/trackEvent.js"
       }
     ]
   ],
