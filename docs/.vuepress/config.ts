@@ -3,6 +3,24 @@ import themeConfig from "./themeConfig";
 export default defineHopeConfig({
   head: [
     [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: `/images/icons/icons8-javascript-16.png`,
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: `/images/icons/icons8-javascript-32.png`,
+      },
+    ],
+    [
       "link",
       {
         rel: "stylesheet",
