@@ -2,6 +2,14 @@
 lang: zh-CN
 title: Git
 description: Git的的文档
+category: 
+    - Git 
+    - FE
+icon: git
+tag:
+  - git init
+  - git commit
+
 ---
 
 一、新建代码库

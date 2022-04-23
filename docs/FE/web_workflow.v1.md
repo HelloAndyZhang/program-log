@@ -1,3 +1,9 @@
+---
+lang: zh-CN
+title: 前端工作流
+description: NPM的文档
+icon: flow
+---
 # 前端工作流
 
 ## git hook 规范代码提交

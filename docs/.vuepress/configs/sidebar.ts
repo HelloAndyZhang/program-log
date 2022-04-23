@@ -1,42 +1,49 @@
-import type { SidebarConfig } from '@vuepress/theme-default'
-
-export const Sidebar: SidebarConfig = {
-    '/Project/':[
+import { defineSidebarConfig } from "vuepress-theme-hope";
+export const Sidebar = defineSidebarConfig({
+    '/Project/': [
         '/Project/README.md',
     ],
     '/FE/': [
         {
             text: '常用工具',
+            prefix: "/FE/",
+            icon: "tool",
             children: [
-                '/FE/git.md',
-                '/FE/npm.md',
-                '/FE/web_workflow.v1.md',
-            ],   
-            collapsible: true, 
+                'git.md',
+                'npm.md',
+                'web_workflow.v1.md',
+            ],
+            collapsable: true,
         },
         {
             text: 'React',
+            prefix: "/FE/",
+            icon: 'react',
             children: [
-                '/FE/react.md',
-            ], 
-            collapsible: true,    
+                'react.md',
+            ],
+            collapsable: true,
         },
         {
             text: 'Vue',
+            prefix: "/FE/",
+            icon: 'vue',
             children: [
-                '/FE/vue.md',
-            ],    
-            collapsible: true, 
+                'vue.md',
+            ],
+            collapsable: true,
         },
     ],
     '/MacOS/': [
         '/MacOS/mac_shortcuts.md',
-        '/MacOS/README.md',
+        '/MacOS/terminal.md',
         // {
         //     text: '命令',
+        //     icon: 'command',
+        //     prefix: "/MacOS/",
         //     children: [
 
         //     ],
         // },
     ],
-}
+});

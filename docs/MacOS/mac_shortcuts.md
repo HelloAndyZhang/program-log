@@ -2,6 +2,7 @@
 lang: zh-CN
 title: Mac 快捷键
 description: Mac 快捷键的文档
+icon: speed
 ---
 
 #### 剪切、拷贝、粘贴和其他常用快捷键

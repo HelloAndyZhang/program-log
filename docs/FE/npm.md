@@ -2,6 +2,11 @@
 lang: zh-CN
 title: NPM
 description: NPM的文档
+icon: npm
+tag:
+  - list
+  - uninstall 
+  - force
 ---
 
 ```shell
