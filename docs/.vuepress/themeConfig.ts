@@ -1,16 +1,16 @@
 import { defineThemeConfig } from 'vuepress-theme-hope';
-import {Navbar}  from './configs/navbar';
-import {Sidebar} from './configs/sidebar';
+import { Navbar } from './configs/navbar';
+import { Sidebar } from './configs/sidebar';
 
 export default defineThemeConfig({
-    // hostname,
+  // hostname,
   // logo: 'https://vuejs.org/images/logo.png',
   docsDir: 'docs',
   pageInfo: ['Author', 'Original', 'Date', 'Category', 'Tag', 'ReadingTime'],
   iconPrefix: 'iconfont icon-',
   navbar: Navbar,
   sidebar: Sidebar,
-  contributors:false,
+  contributors: false,
   // page meta
   editLinkText: '在 GitHub 上编辑此页',
   lastUpdatedText: '上次更新',
@@ -34,5 +34,4 @@ export default defineThemeConfig({
   openInNewWindow: '在新窗口打开',
   toggleDarkMode: '切换夜间模式',
   toggleSidebar: '切换侧边栏',
-  });
-  
+});

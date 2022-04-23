@@ -1,7 +1,6 @@
 import { defineHopeConfig } from "vuepress-theme-hope";
 import themeConfig from "./themeConfig";
 export default defineHopeConfig({
-
   // 站点配置
   lang: 'zh-CN',
   title: '阑风伏雨',
@@ -9,46 +8,19 @@ export default defineHopeConfig({
   base: '/HelloAndyZhang/',
   head: [
     [
-      'link',
-      {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '16x16',
-        href: `/images/icons/icons8-javascript-16.png`,
-      },
-    ],
-    [
-      'link',
-      {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '32x32',
-        href: `/images/icons/icons8-javascript-32.png`,
-      },
-    ],
-    [
-      'link',
-      {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '96x96',
-        href: `/images/icons/icons8-javascript-96.png`,
-      },
-    ],
-    [
       "link",
       {
         rel: "stylesheet",
         href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
       },
     ],
-    [
-      "script",
-      {
-        type: "text/javascript",
-        src: "/js/trackEvent.js"
-      }
-    ]
+    // [
+    //   "script",
+    //   {
+    //     type: "text/javascript",
+    //     src: `/js/trackEvent.js`
+    //   }
+    // ]
   ],
   // 主题和它的配置
   // theme: '@vuepress/theme-default',
