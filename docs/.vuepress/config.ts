@@ -14,7 +14,7 @@ export default defineHopeConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: `images/icons/icons8-javascript-16.png`,
+        href: `/images/icons/icons8-javascript-16.png`,
       },
     ],
     [
@@ -23,7 +23,7 @@ export default defineHopeConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: `images/icons/icons8-javascript-32.png`,
+        href: `/images/icons/icons8-javascript-32.png`,
       },
     ],
     [
@@ -32,7 +32,7 @@ export default defineHopeConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '96x96',
-        href: `images/icons/icons8-javascript-96.png`,
+        href: `/images/icons/icons8-javascript-96.png`,
       },
     ],
     [
@@ -46,7 +46,7 @@ export default defineHopeConfig({
       "script",
       {
         type: "text/javascript",
-        src: "js/trackEvent.js"
+        src: "/js/trackEvent.js"
       }
     ]
   ],
