@@ -33,6 +33,7 @@ export const Sidebar = defineSidebarConfig({
             ],
             collapsable: true,
         },
+        "/FE/mobile.md",
     ],
     '/MacOS/': [
         '/MacOS/mac_shortcuts.md',
