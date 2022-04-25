@@ -4,7 +4,7 @@ export const Navbar = defineNavbarConfig([
   // NavbarItem
   {
     text: 'FE',
-    link: '/FE/git.md',
+    link: '/FE/Tools/git.md',
     icon: "javascript",
     activeMatch: "^/FE/",
   },

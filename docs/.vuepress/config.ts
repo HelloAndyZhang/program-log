@@ -75,7 +75,7 @@ export default defineHopeConfig({
         // },
         locales: {
           '/': {
-            placeholder: '搜索文档...',
+            placeholder: '搜索文档',
           },
         },
       },

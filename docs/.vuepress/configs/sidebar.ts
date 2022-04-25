@@ -2,42 +2,54 @@ import { defineSidebarConfig } from "vuepress-theme-hope";
 export const Sidebar = defineSidebarConfig({
     '/Project/': [
         '/Project/README.md',
+        '/Project/Workflow.v1.md',
     ],
     '/FE/': [
         {
-            text: '常用工具',
-            prefix: "/FE/",
+            text: '工具',
+            prefix: "/FE/Tools/",
             icon: "tool",
             children: [
-                'git.md',
-                'npm.md',
-                'web_workflow.v1.md',
+                'Git.md',
+                'NPM.md',
             ],
             collapsable: true,
         },
         {
-            text: 'React',
-            prefix: "/FE/",
-            icon: 'react',
+            text: '框架',
+            prefix: "/FE/Framework/",
+            icon: 'frame',
             children: [
-                'react.md',
+                'React.md',
+                'Vue.md',
             ],
             collapsable: true,
         },
         {
-            text: 'Vue',
-            prefix: "/FE/",
-            icon: 'vue',
+            text: 'HCJ',
+            prefix: "/FE/HCJ/",
+            icon: 'launch',
             children: [
-                'vue.md',
+                'CSS.md',
+                "JavaScript.md",
+                'HTML.md',
             ],
             collapsable: true,
         },
-        "/FE/mobile.md",
+        {
+            text: '移动端',
+            prefix: "/FE/Mobile/",
+            icon: 'mobile',
+            children: [
+                'MiniProgram.md',
+                "Mobile.md",
+            ],
+            collapsable: true,
+        }, 
     ],
     '/MacOS/': [
-        '/MacOS/mac_shortcuts.md',
-        '/MacOS/terminal.md',
+        '/MacOS/Shortcuts.md',
+        '/MacOS/Terminal.md',
         // {
         //     text: '命令',
         //     icon: 'command',
