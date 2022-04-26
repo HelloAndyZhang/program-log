@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
-title: css
-description: css的文档
+title: CSS
+description: CSS的文档
 icon: css
 ---
 

@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
-title: html
-description: html的文档
+title: HTML
+description: HTML的文档
 icon: html
 ---
 

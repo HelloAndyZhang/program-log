@@ -31,8 +31,9 @@ export const Sidebar = defineSidebarConfig({
             icon: 'launch',
             children: [
                 'CSS.md',
-                "JavaScript.md",
                 'HTML.md',
+                "JavaScript.md",
+                "TypeScript.md",
             ],
             collapsable: true,
         },

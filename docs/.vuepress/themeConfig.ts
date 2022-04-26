@@ -4,7 +4,7 @@ import { Sidebar } from './configs/sidebar';
 
 export default defineThemeConfig({
   hostname:"https://tgy.ink",
-  // logo: 'https://vuejs.org/images/logo.png',
+  logo: '/images/icons/icons-emoji-96.png',
   docsDir: 'docs',
   pageInfo: ['Author', 'Original', 'Date', 'Category', 'Tag', 'ReadingTime'],
   iconPrefix: 'iconfont icon-',
