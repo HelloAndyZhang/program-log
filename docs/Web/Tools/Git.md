@@ -5,7 +5,7 @@ description: Git的的文档
 category: 
     - Git 
     - FE
-icon: git
+# icon: git
 tag:
   - git init
   - git commit

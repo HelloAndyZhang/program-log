@@ -3,10 +3,10 @@ import type { HopeThemeNavbarConfig } from "vuepress-theme-hope";
 export const Navbar = defineNavbarConfig([
   // NavbarItem
   {
-    text: 'FE',
-    link: '/FE/Tools/git.md',
+    text: 'Web',
+    link: '/Web/Tools/git.md',
     icon: "javascript",
-    activeMatch: "^/FE/",
+    activeMatch: "^/Web/",
   },
   {
     text: 'MacOS',

@@ -1,8 +1,7 @@
 ---
 lang: zh-CN
-title: HTML
-description: HTML的文档
-icon: html
+title: meta
+description: meta的文档
 ---
 
 ### 常用 meta

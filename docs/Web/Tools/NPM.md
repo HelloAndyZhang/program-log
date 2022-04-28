@@ -2,7 +2,7 @@
 lang: zh-CN
 title: NPM
 description: NPM的文档
-icon: npm
+# icon: npm
 tag:
   - list
   - uninstall 

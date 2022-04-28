@@ -4,20 +4,30 @@ export const Sidebar = defineSidebarConfig({
         '/Project/README.md',
         '/Project/Workflow.v1.md',
     ],
-    '/FE/': [
+    '/Web/': [
         {
-            text: '工具',
-            prefix: "/FE/Tools/",
-            icon: "tool",
+            text: 'TypeScript',
+            prefix: "/Web/TypeScript/",
+            icon: 'typescript',
             children: [
-                'Git.md',
-                'NPM.md',
+                'tsconfig配置.md',
+                '工具函数.md',
+            ],
+            collapsable: true,
+        },
+        {
+            text: 'JavaScript',
+            prefix: "/Web/JavaScript/",
+            icon: 'javascript',
+            children: [
+                '常用函数.md',
+                '数组技巧.md',
             ],
             collapsable: true,
         },
         {
             text: '框架',
-            prefix: "/FE/Framework/",
+            prefix: "/Web/Framework/",
             icon: 'frame',
             children: [
                 'React.md',
@@ -26,20 +36,47 @@ export const Sidebar = defineSidebarConfig({
             collapsable: true,
         },
         {
-            text: 'HCJ',
-            prefix: "/FE/HCJ/",
+            text: '工具',
+            prefix: "/Web/Tools/",
+            icon: "tool",
+            children: [
+                'Git.md',
+                'NPM.md',
+            ],
+            collapsable: true,
+        },
+        {
+            text: 'HTML',
+            prefix: "/Web/HTML/",
+            icon: 'html',
+            children: [
+                'meta模板.md',
+            ],
+            collapsable: true,
+        },
+        {
+            text: 'CSS',
+            prefix: "/Web/CSS/",
+            icon: 'css',
+            children: [
+                '设备样式兼容.md',
+                '常用样式.md',
+            ],
+            collapsable: true,
+        },
+
+        {
+            text: 'Debug',
+            prefix: "/Web/Debug/",
             icon: 'launch',
             children: [
-                'CSS.md',
-                'HTML.md',
-                "JavaScript.md",
-                "TypeScript.md",
+                'chrome调试.md',
             ],
             collapsable: true,
         },
         {
             text: '移动端',
-            prefix: "/FE/Mobile/",
+            prefix: "/Web/Mobile/",
             icon: 'mobile',
             children: [
                 'MiniProgram.md',

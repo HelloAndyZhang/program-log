@@ -1,8 +1,7 @@
 ---
 lang: zh-CN
-title: TypeScript
-description: TypeScript的文档
-icon: typescript
+title: tsconfig配置
+description: tsconfig配置的文档
 ---
 
 

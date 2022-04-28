@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
-title: 小程序
+title: 移动端兼容
 description: 移动端的文档
-icon: mini-app
+# icon: chrome
 
 ---
