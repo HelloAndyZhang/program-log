@@ -59,7 +59,11 @@ export const Sidebar = defineSidebarConfig({
             prefix: "/Web/CSS/",
             icon: 'css',
             children: [
-                '设备样式兼容.md',
+                '1px边框.md',
+                '网站变灰.md',
+                "文本溢出.md",
+                "重置滚动条.md",
+                '样式兼容.md',
                 '常用样式.md',
             ],
             collapsable: true,

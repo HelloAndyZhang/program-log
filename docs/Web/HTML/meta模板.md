@@ -1,10 +1,95 @@
 ---
 lang: zh-CN
-title: meta
-description: meta的文档
+title: meta标签
+description: meta标签的文档
 ---
 
-### 常用 meta
+### meta 标签使用说明
+
+> 标签可分为两部分：HTTP-EQUIV 和 NAME 变量
+
+
+- 用以说明主页制作所使用的文字以及语言编码
+
+```html
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+```
+
+- 定时让网页在指定的时间 n 内，跳转到你的页面；
+
+```html
+<meta http-equiv="Refresh" content="n;url=https://github.com/Jamin2Guan/summary" />
+```
+
+- 告诉 IE 浏览器，无论是否用 DTD 声明文档标准，IE8/9 都会以 IE7 引擎来渲染页面
+
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+```
+
+- 告诉 IE 浏览器，IE8/9 都会以 IE8 引擎来渲染页面
+
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+```
+
+- 告诉 IE 浏览器，IE8/9 及以后的版本都会以最高版本 IE 来渲染页面
+
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+```
+
+- IE=edge 告诉 IE 使用最新的引擎渲染网页，chrome=1 则可以激活 Chrome Frame
+
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+```
+
+
+- 将网站添加到主屏幕快速启动方式，仅针对 ios 的 safari 顶端状态条的样式(可选 default/black/black-translucent)
+
+```html
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+```
+
+
+- robots 用来告诉搜索机器人哪些页面需要索引，哪些页面不需要索引
+
+```html
+<meta name="robots" content="none" />
+```
+
+> content 的参数有 all,none,index,noindex,follow,nofollow。默认是 all。
+
+- 标注网页的作者
+
+```html
+<meta name="author" content="zhangsan,lisi" />
+```
+
+- keywords 用来告诉搜索引擎你网页的关键字是什么
+
+```html
+<meta name="keywords" content="word1,word2" />
+```
+
+- description 用来告诉搜索引擎你的网站主要内容
+
+```html
+<meta name="description" content="desc content" />
+```
+
+- 禁止浏览器从本地计算机的缓存中访问页面内容
+
+```html
+<meta http-equiv="Pragma" content="no-cache" />
+```
+
+```html
+<meta name="referrer" content="never" />
+`
+
+
 
 ```html
 <!-- 设置缩放 -->

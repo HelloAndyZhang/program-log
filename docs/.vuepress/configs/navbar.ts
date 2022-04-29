@@ -4,7 +4,7 @@ export const Navbar = defineNavbarConfig([
   // NavbarItem
   {
     text: 'Web',
-    link: '/Web/Tools/git.md',
+    link: '/Web/TypeScript/tsconfig配置.md',
     icon: "javascript",
     activeMatch: "^/Web/",
   },
