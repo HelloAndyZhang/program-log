@@ -1,5 +1,5 @@
-import { defineSidebarConfig } from "vuepress-theme-hope";
-export const Sidebar = defineSidebarConfig({
+import { sidebar } from 'vuepress-theme-hope';
+export const Sidebar = sidebar({
     '/Project/': [
         '/Project/README.md',
         '/Project/Workflow.v1.md',
@@ -92,6 +92,7 @@ export const Sidebar = defineSidebarConfig({
     '/MacOS/': [
         '/MacOS/Shortcuts.md',
         '/MacOS/Terminal.md',
+        "zshrc区别.md",
         // {
         //     text: '命令',
         //     icon: 'command',

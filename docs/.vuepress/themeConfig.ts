@@ -1,8 +1,8 @@
-import { defineThemeConfig } from 'vuepress-theme-hope';
+import { hopeTheme } from 'vuepress-theme-hope';
 import { Navbar } from './configs/navbar';
 import { Sidebar } from './configs/sidebar';
 
-export default defineThemeConfig({
+export default hopeTheme({
   hostname:"https://tgy.ink",
   logo: '/images/icons/icons-emoji-96.png',
   docsDir: 'docs',
@@ -29,7 +29,15 @@ export default defineThemeConfig({
     '看起来我们进入了错误的链接',
   ],
   backToHome: '返回首页',
-
+  plugins:{
+    // mdEnhance: {
+    //   codegroup: true,
+    //   sub: true,
+    //   sup: true,
+    //   tasklist: true,
+    //   tex: true,
+    // },
+  },
   // a11y
   openInNewWindow: '在新窗口打开',
   toggleDarkMode: '切换夜间模式',

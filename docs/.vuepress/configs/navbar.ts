@@ -1,6 +1,6 @@
-import { defineNavbarConfig } from 'vuepress-theme-hope';
+import { navbar } from 'vuepress-theme-hope';
 import type { HopeThemeNavbarConfig } from "vuepress-theme-hope";
-export const Navbar = defineNavbarConfig([
+export const Navbar = navbar([
   // NavbarItem
   {
     text: 'Web',

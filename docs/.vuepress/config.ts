@@ -1,7 +1,10 @@
-import { defineHopeConfig } from "vuepress-theme-hope";
+import { defineUserConfig } from 'vuepress';
+// import { docsearchPlugin } from '@vuepress/plugin-docsearch';
+import { searchPlugin }  from '@vuepress/plugin-search'
+import { path } from '@vuepress/utils';
 import themeConfig from "./themeConfig";
 const base = '/HelloAndyZhang/'
-export default defineHopeConfig({
+export default defineUserConfig({
   // 站点配置
   lang: 'zh-CN',
   title: '阑风伏雨',
@@ -58,27 +61,43 @@ export default defineHopeConfig({
       "console.log('hello world')"
     ],
   ],
+  alias: {
+    // '@MigrationTool': path.resolve(__dirname, './components/MigrationTool.vue'),
+    // '@theme-hope/components/HomePage': path.resolve(
+    //   __dirname,
+    //   './components/HomePage'
+    // ),
+    // '@theme-hope/components/NormalPage': path.resolve(
+    //   __dirname,
+    //   './components/NormalPage'
+    // ),
+  },
+
+  markdown: {
+    code: {
+      lineNumbers: false,
+    },
+  },
   // 主题和它的配置
   // theme: '@vuepress/theme-default',
-  themeConfig,
+  theme:themeConfig,
   plugins: [
-    [
-      '@vuepress/plugin-search',
-      {
-        maxSuggestions: 10,
-        // 允许搜索 Frontmatter 中的 `tags`
-        // getExtraFields: (page) => {
-        //   const pages = page.headers ?? [];
-        //   const pagesTitle = pages.map((page) => page.title);
-        //   const tags = page.frontmatter.tag ?? [];
-        //   return  [...pagesTitle,...tags]
-        // },
-        locales: {
-          '/': {
-            placeholder: '搜索文档',
-          },
+    searchPlugin({
+      maxSuggestions: 10,
+      // 允许搜索 Frontmatter 中的 `tags`
+      // getExtraFields: (page) => {
+      //   const pages = page.headers ?? [];
+      //   const pagesTitle = pages.map((page) => page.title);
+      //   const tags = page.frontmatter.tag ?? [];
+      //   return  [...pagesTitle,...tags]
+      // },
+      locales: {
+        '/': {
+          placeholder: '搜索文档',
         },
       },
-    ],
+    })
   ],
 })
+
+
