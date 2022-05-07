@@ -2,7 +2,7 @@
 lang: zh-CN
 title: Mac 命令
 description: Mac 命令的文档
-icon: shell
+
 ---
 
 # 1.最常用终端命令

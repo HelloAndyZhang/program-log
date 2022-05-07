@@ -30,13 +30,15 @@ export default hopeTheme({
   ],
   backToHome: '返回首页',
   plugins:{
-    // mdEnhance: {
-    //   codegroup: true,
-    //   sub: true,
-    //   sup: true,
-    //   tasklist: true,
-    //   tex: true,
-    // },
+    mdEnhance: {
+      // enableAll: true,
+      demo: true,
+      // codegroup: true,
+      // sub: true,
+      // sup: true,
+      // tasklist: true,
+      // tex: true,
+    },
   },
   // a11y
   openInNewWindow: '在新窗口打开',

@@ -10,7 +10,7 @@ export const Navbar = navbar([
   },
   {
     text: 'MacOS',
-    link: '/MacOS/terminal',
+    link: '/MacOS/Shortcuts',
     icon: "computer",
   },
   {
