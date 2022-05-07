@@ -40,16 +40,3 @@ chown :web file.txt
 chown -R www example
 ```
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://man.linuxde.net/chown
-https://www.cnblogs.com/piaozhe116/p/6079977.html
-https://www.runoob.com/linux/linux-comm-chown.html
-```

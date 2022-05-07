@@ -65,17 +65,3 @@ cp -R ./tmp ./tmp2
 cp -s file.txt file-link1
 ```
 
-
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://www.computerhope.com/unix/ucp.htm
-https://linuxize.com/post/cp-command-in-linux/
-https://www.runoob.com/linux/linux-comm-cp.html
-```

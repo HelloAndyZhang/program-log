@@ -136,17 +136,3 @@ grep -rni "h*" ./
 ```
 
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://www.runoob.com/linux/linux-comm-grep.html
-https://www.tutorialspoint.com/unix_commands/grep.htm
-https://www.geeksforgeeks.org/fold-command-in-linux-with-examples/
-```
-

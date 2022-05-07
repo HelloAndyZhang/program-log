@@ -55,16 +55,3 @@ cat /dev/null > file2.txt
 cat file.txt file2.txt > file3.txt
 ```
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://man.linuxde.net/cat
-https://www.runoob.com/linux/linux-comm-cat.html
-https://www.cnblogs.com/zhangchenliang/p/7717602.html
-```

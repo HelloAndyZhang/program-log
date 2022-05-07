@@ -82,16 +82,3 @@ chmod u=rwx,go= file.py
 ```
 
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://man.linuxde.net/chmod
-https://www.cnblogs.com/linuxandy/p/10881918.html
-https://www.runoob.com/linux/linux-comm-chmod.html
-```

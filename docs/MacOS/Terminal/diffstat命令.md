@@ -47,16 +47,3 @@ diff file.txt file2.txt | diffstat -w 11
 
 
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://man.linuxde.net/diffstat
-https://www.runoob.com/linux/linux-comm-diffstat.html
-https://www.tutorialspoint.com/unix_commands/diffstat.htm
-```

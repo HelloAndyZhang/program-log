@@ -98,11 +98,9 @@ echo "My ID is 73535" | tr -cd [:digit:]
 
 
 
-## 每日一题
 
-```
-https://github.com/WindrunnerMax/EveryDay
-```
+
+
 
 ## 参考
 

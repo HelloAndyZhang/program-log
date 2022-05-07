@@ -96,11 +96,9 @@ sed "3 s/unix/linux/g" file.txt
 ```
 
 
-## 每日一题
 
-```
-https://github.com/WindrunnerMax/EveryDay
-```
+
+
 
 ## 参考
 

@@ -121,7 +121,6 @@ export const Sidebar = sidebar({
                 "fmt命令.md",
                 "fold命令.md",
                 "grep命令.md",
-                "ifconfig命令.md",
                 "ip命令.md",
                 "join命令.md",
                 "journalctl命令.md",

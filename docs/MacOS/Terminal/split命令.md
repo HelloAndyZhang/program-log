@@ -43,11 +43,9 @@ split -b 2 /tmp/file.txt new
 split -d -l 2 /tmp/file.txt new
 ```
 
-## 每日一题
 
-```
-https://github.com/WindrunnerMax/EveryDay
-```
+
+
 
 ## 参考
 

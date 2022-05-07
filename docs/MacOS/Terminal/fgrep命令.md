@@ -100,18 +100,3 @@ fgrep -n Hello hello.c
 fgrep -rni "h*" ./
 # [输出为空]
 ```
-
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://www.computerhope.com/unix/ufgrep.htm
-https://www.runoob.com/linux/linux-comm-fgrep.html
-https://www.geeksforgeeks.org/fgrep-command-in-linux-with-examples/
-```
-

@@ -48,17 +48,3 @@ file -b -i file.txt
 # text/plain; charset=us-ascii
 ```
 
-
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://www.runoob.com/linux/linux-comm-file.html
-https://www.tutorialspoint.com/unix_commands/file.htm
-https://blog.csdn.net/pzqingchong/article/details/70226640
-```

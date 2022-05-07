@@ -63,16 +63,3 @@ diff -y file.txt -
     
 
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://man.linuxde.net/diff
-https://www.cnblogs.com/wf-linux/p/9488257.html
-https://www.runoob.com/linux/linux-comm-diff.html
-```

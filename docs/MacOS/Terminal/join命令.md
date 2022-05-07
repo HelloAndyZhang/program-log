@@ -107,17 +107,9 @@ join -j 2 file1.txt file2.txt
 # 4 KARTIK 104
 ```
 
-## 每日一题
 
-```
-https://github.com/WindrunnerMax/EveryDay
-```
 
-## 参考
 
-```
-https://www.computerhope.com/unix/ujoin.htm
-https://www.runoob.com/linux/linux-comm-join.html
-https://www.geeksforgeeks.org/join-command-linux/
-```
+
+
 

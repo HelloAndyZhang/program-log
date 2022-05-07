@@ -122,16 +122,3 @@ find /tmp/ -type f -size 0 -exec ls -l {} \;
 
 
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://man.linuxde.net/find
-https://www.runoob.com/linux/linux-comm-find.html
-https://www.tutorialspoint.com/unix_commands/find.htm
-```

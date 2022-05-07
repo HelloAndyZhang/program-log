@@ -68,17 +68,4 @@ cat readme.txt
 
 
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://www.computerhope.com/unix/ued.htm
-https://www.runoob.com/linux/linux-comm-ed.html
-https://www.geeksforgeeks.org/ed-command-in-linux-with-examples/
-```
 

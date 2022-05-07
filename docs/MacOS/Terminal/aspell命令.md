@@ -78,17 +78,3 @@ aspell list
 ```
 
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://www.computerhope.com/unix/aspell.htm
-https://www.tutorialspoint.com/unix_commands/aspell.htm
-https://www.geeksforgeeks.org/aspell-command-in-linux-with-examples/
-```
-

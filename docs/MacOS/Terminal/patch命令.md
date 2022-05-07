@@ -51,11 +51,9 @@ patch /tmp/file2.txt /tmp/file.patch
 ```
 
 
-## 每日一题
 
-```
-https://github.com/WindrunnerMax/EveryDay
-```
+
+
 
 ## 参考
 

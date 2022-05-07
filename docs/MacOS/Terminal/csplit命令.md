@@ -107,18 +107,3 @@ csplit list.txt 2 {1}
 ls xx*
 # xx00  xx01  xx02
 ```
-
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://www.computerhope.com/unix/ucsplit.htm
-https://www.runoob.com/linux/linux-comm-csplit.html
-https://www.geeksforgeeks.org/csplit-command-in-linux-with-examples/
-```
-

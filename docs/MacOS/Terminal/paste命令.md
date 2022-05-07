@@ -34,11 +34,9 @@ paste /tmp/file1.txt /tmp/file2.txt >> /tmp/file3.txt
 paste -d - /tmp/file1.txt /tmp/file2.txt
 ```
 
-## 每日一题
 
-```
-https://github.com/WindrunnerMax/EveryDay
-```
+
+
 
 ## 参考
 

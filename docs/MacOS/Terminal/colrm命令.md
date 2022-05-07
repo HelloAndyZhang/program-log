@@ -35,18 +35,3 @@ colrm 3
 ```shell
 cat file.txt | colrm 3 6 > file2.txt
 ```
-
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://linux.die.net/man/1/colrm
-https://www.runoob.com/linux/linux-comm-colrm.html
-https://www.geeksforgeeks.org/colrm-command-in-linux-with-examples/
-```
-

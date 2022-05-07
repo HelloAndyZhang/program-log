@@ -36,16 +36,3 @@ cmp file.txt -
     
 
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://man.linuxde.net/cmp
-https://www.jianshu.com/p/f5963af8d796
-https://www.runoob.com/linux/linux-comm-cmp.html
-```

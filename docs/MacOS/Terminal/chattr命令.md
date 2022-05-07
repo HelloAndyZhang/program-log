@@ -46,16 +46,3 @@ chattr +ac file.txt
 chattr =i file.txt
 ```
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://man.linuxde.net/chattr
-https://www.howtoforge.com/linux-chattr-command/
-https://www.runoob.com/linux/linux-comm-chattr.html
-```

@@ -58,17 +58,3 @@ sum=`expr $x + $y`
 echo "Sum = $sum"
 ```
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://www.computerhope.com/unix/uexpr.htm
-https://www.runoob.com/linux/linux-comm-expr.html
-https://www.geeksforgeeks.org/expr-command-in-linux-with-examples/
-```
-

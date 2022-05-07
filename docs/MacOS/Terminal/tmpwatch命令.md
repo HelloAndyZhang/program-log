@@ -45,11 +45,9 @@ tmpwatch -am 30 –nodirs /tmp/
 ```
 
 
-## 每日一题
 
-```
-https://github.com/WindrunnerMax/EveryDay
-```
+
+
 
 ## 参考
 
@@ -105,11 +103,9 @@ tmpwatch -am 30 –nodirs /tmp/
 ```
 
 
-## 每日一题
 
-```
-https://github.com/WindrunnerMax/EveryDay
-```
+
+
 
 ## 参考
 

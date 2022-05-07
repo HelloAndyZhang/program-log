@@ -37,18 +37,3 @@ col --help | col -b > col.txt
 col --help | col -x > col.txt
 ```
 
-
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://www.computerhope.com/unix/ucol.htm
-https://www.runoob.com/linux/linux-comm-col.html
-https://www.geeksforgeeks.org/col-command-in-linux-with-examples/
-```
-

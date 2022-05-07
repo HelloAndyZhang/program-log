@@ -53,18 +53,3 @@ awk 'BEGIN { print "Start Processing" }; $2 ~ /Tor/ {print $1,$2,$3,$4 }; END { 
 # End Processing
 ```
 
-
-
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://linuxize.com/post/awk-command/
-https://www.computerhope.com/unix/uawk.htm
-https://www.runoob.com/linux/linux-comm-awk.html
-```

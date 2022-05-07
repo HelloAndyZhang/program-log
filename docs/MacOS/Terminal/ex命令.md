@@ -95,20 +95,3 @@ vi
 ```
 
 
-## 每日一题
-
-```
-https://github.com/WindrunnerMax/EveryDay
-```
-
-## 参考
-
-```
-https://www.computerhope.com/unix/uex.htm
-https://www.runoob.com/linux/linux-comm-ex.html
-https://www.cnblogs.com/dasn/articles/5240991.html
-https://www.tutorialspoint.com/unix_commands/ex.htm
-https://blog.csdn.net/u013408061/article/details/77853130
-https://www.geeksforgeeks.org/ex-command-in-linux-with-examples/
-```
-
