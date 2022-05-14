@@ -1,7 +1,6 @@
 name: GH-Pages Status
 on:
   page_build:
-  workflow_dispatch:
   
 jobs:
   see-page-build-payload:
