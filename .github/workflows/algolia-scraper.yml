@@ -6,13 +6,14 @@ on:
   workflow_dispatch:  
   schedule:
     - cron: "0 1 * * *" #runs at 01:00 UTC everyday
+    
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: check out code 🛎
-        uses: actions/checkout@v2
-        uses: darrenjennings/algolia-docsearch-action@master
+      - uses: actions/checkout@v2
+      - uses: darrenjennings/algolia-docsearch-action@master
         with:
           algolia_application_id: ${{ secrets.ALGOLIA_APPLICATION_ID }}
           algolia_api_key: ${{ secrets.ALGOLIA_WRITE_API_KEY }}
