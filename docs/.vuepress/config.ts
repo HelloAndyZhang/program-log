@@ -1,6 +1,6 @@
 import { defineUserConfig } from 'vuepress';
 import { docsearchPlugin } from '@vuepress/plugin-docsearch';
-import { searchPlugin }  from '@vuepress/plugin-search'
+import { searchPlugin } from '@vuepress/plugin-search'
 import { path } from '@vuepress/utils';
 import themeConfig from "./themeConfig";
 const base = '/HelloAndyZhang/'
@@ -12,7 +12,7 @@ export default defineUserConfig({
   // base,
   head: [
     /** 移动端禁止缩放 */
-    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no, minimal-ui'}],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no, minimal-ui' }],
     [
       'link',
       {
@@ -80,7 +80,7 @@ export default defineUserConfig({
   },
   // 主题和它的配置
   // theme: '@vuepress/theme-default',
-  theme:themeConfig,
+  theme: themeConfig,
   plugins: [
     // searchPlugin({
     //   maxSuggestions: 10,
@@ -97,53 +97,50 @@ export default defineUserConfig({
     //     },
     //   },
     // })
-    
+
     docsearchPlugin({
-      apiKey:'eb4e6af4f85378c063c2fb82ffa621fe',
-      indexName:'docs-site',
-      appId:'11IBYCSAO0',
-      locales: {
-        "/zh/": {
-          placeholder: "搜索文档",
-          translations: {
-            button: {
-              buttonText: "搜索文档",
-              buttonAriaLabel: "搜索文档",
-            },
-            modal: {
-              searchBox: {
-                resetButtonTitle: "清除查询条件",
-                resetButtonAriaLabel: "清除查询条件",
-                cancelButtonText: "取消",
-                cancelButtonAriaLabel: "取消",
-              },
-              startScreen: {
-                recentSearchesTitle: "搜索历史",
-                noRecentSearchesText: "没有搜索历史",
-                saveRecentSearchButtonTitle: "保存至搜索历史",
-                removeRecentSearchButtonTitle: "从搜索历史中移除",
-                favoriteSearchesTitle: "收藏",
-                removeFavoriteSearchButtonTitle: "从收藏中移除",
-              },
-              errorScreen: {
-                titleText: "无法获取结果",
-                helpText: "你可能需要检查你的网络连接",
-              },
-              footer: {
-                selectText: "选择",
-                navigateText: "切换",
-                closeText: "关闭",
-                searchByText: "搜索提供者",
-              },
-              noResultsScreen: {
-                noResultsText: "无法找到相关结果",
-                suggestedQueryText: "你可以尝试查询",
-                reportMissingResultsText: "你认为该查询应该有结果？",
-                reportMissingResultsLinkText: "点击反馈",
-              },
-            },
+      apiKey: 'eb4e6af4f85378c063c2fb82ffa621fe',
+      indexName: 'docs-site',
+      appId: '11IBYCSAO0',
+      placeholder: "搜索文档",
+      translations: {
+        button: {
+          buttonText: "搜索文档",
+          buttonAriaLabel: "搜索文档",
+        },
+        modal: {
+          searchBox: {
+            resetButtonTitle: "清除查询条件",
+            resetButtonAriaLabel: "清除查询条件",
+            cancelButtonText: "取消",
+            cancelButtonAriaLabel: "取消",
+          },
+          startScreen: {
+            recentSearchesTitle: "搜索历史",
+            noRecentSearchesText: "没有搜索历史",
+            saveRecentSearchButtonTitle: "保存至搜索历史",
+            removeRecentSearchButtonTitle: "从搜索历史中移除",
+            favoriteSearchesTitle: "收藏",
+            removeFavoriteSearchButtonTitle: "从收藏中移除",
+          },
+          errorScreen: {
+            titleText: "无法获取结果",
+            helpText: "你可能需要检查你的网络连接",
+          },
+          footer: {
+            selectText: "选择",
+            navigateText: "切换",
+            closeText: "关闭",
+            searchByText: "搜索提供者",
+          },
+          noResultsScreen: {
+            noResultsText: "无法找到相关结果",
+            suggestedQueryText: "你可以尝试查询",
+            reportMissingResultsText: "你认为该查询应该有结果？",
+            reportMissingResultsLinkText: "点击反馈",
           },
         },
+
       },
     }),
   ],
