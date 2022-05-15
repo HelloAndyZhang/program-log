@@ -7,8 +7,8 @@ const base = '/HelloAndyZhang/'
 export default defineUserConfig({
   // 站点配置
   lang: 'zh-CN',
-  title: '', //阑风伏雨
-  description: '常用文档',
+  title: ' ', //阑风伏雨
+  description: ' ', //常用文档
   // base,
   head: [
     /** 移动端禁止缩放 */
