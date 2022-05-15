@@ -14,6 +14,6 @@
     "lvl4": ".theme-hope-content h4",
     "lvl5": ".theme-hope-content h5",
     "lvl6": ".theme-hope-content h6",
-    "content": ".theme-hope-content p, .theme-hope-content li"
+    "text": ".theme-hope-content p, .theme-hope-content li"
   }
 }
