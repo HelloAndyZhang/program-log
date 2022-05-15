@@ -3,30 +3,17 @@
     "start_urls": ["https://tgy.ink/"],
     "selectors": {
       "default": {
-        "lvl0": ".sidebar h4.version",
-        "lvl1": {
-          "selector": ".sidebar-heading.active+ul li a.active",
-          "strip_chars": "#"
+        "lvl0": {
+          "selectors": ".sidebar-heading.active",
+          "defaultValue": "Documentation"
         },
-        "lvl2": {
-          "selector": ".theme-hope-content h2",
-          "strip_chars": "#"
-        },
-        "lvl3": {
-          "selector": ".theme-hope-content h3",
-          "strip_chars": "#"
-        },
-        "text": ".theme-hope-content p, .theme-hope-content li, .theme-hope-content td",
-        "lang": {
-          "selector": "/html/@lang",
-          "type": "xpath",
-          "global": true
-        }
+        "lvl1": ".theme-hope-content h1",
+        "lvl2": ".theme-hope-content h2",
+        "lvl3": ".theme-hope-content h3",
+        "lvl4": ".theme-hope-content h4",
+        "lvl5": ".theme-hope-content h5",
+        "lvl6": ".theme-hope-content h6",
+        "content": ".theme-hope-content p, .theme-hope-content li"
       }
-    },
-    "custom_settings": {
-      "attributesForFaceting": [
-        "lang"
-      ]
     }
   }
