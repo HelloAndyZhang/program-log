@@ -17,6 +17,6 @@ jobs:
         with:
           algolia_application_id: ${{ secrets.ALGOLIA_APPLICATION_ID }}
           algolia_api_key: ${{ secrets.ALGOLIA_WRITE_API_KEY }}
-          file: 'docsearch-scrapper-config.json'
+          file: '.algolia/docsearch-scrapper-config.json'
 
         
