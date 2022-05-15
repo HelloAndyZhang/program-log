@@ -5,7 +5,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selectors": ".sidebar-heading.active",
+      "selector": ".sidebar-heading.active",
       "defaultValue": "Documentation"
     },
     "lvl1": ".theme-hope-content h1",
