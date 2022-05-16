@@ -33,4 +33,4 @@ jobs:
           docker run \
           -e algolia_application_id -e algolia_api_key \
           -e CONFIG="$(cat .algolia/docsearch-scrapper-config.json)" \
-          algolia/docsearch-scraper:v1.6.0   
+          algolia/docsearch-scraper:v1.15.0   
