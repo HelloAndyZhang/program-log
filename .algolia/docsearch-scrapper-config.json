@@ -15,5 +15,10 @@
     "lvl5": ".theme-hope-content h5",
     "lvl6": ".theme-hope-content h6",
     "text": ".theme-hope-content p, .theme-hope-content li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
   }
 }
