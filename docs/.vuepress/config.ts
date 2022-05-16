@@ -100,7 +100,7 @@ export default defineUserConfig({
 
     docsearchPlugin({
       apiKey: 'eb4e6af4f85378c063c2fb82ffa621fe',
-      indexName: 'docs-site',
+      indexName: 'docs_site',
       appId: '11IBYCSAO0',
       placeholder: "搜索文档",
       translations: {

@@ -1,5 +1,5 @@
 {
-  "index_name": "docs-site",
+  "index_name": "docs_site",
   "start_urls": [
     "https://tgy.ink/"
   ],
@@ -14,7 +14,8 @@
     "lvl4": ".theme-hope-content h4",
     "lvl5": ".theme-hope-content h5",
     "lvl6": ".theme-hope-content h6",
-    "text": ".theme-hope-content p, .theme-hope-content li"
+    "text": ".theme-hope-content p, .theme-hope-content li",
+    "content":".theme-hope-content p, .theme-hope-content li"
   },
   "custom_settings": {
     "attributesForFaceting": [
