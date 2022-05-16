@@ -11,26 +11,26 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     
-    # steps:
-    #   - uses: actions/checkout@v2
-    #   - uses: darrenjennings/algolia-docsearch-action@master
-    #     with:
-    #       algolia_application_id: ${{ secrets.ALGOLIA_APPLICATION_ID }}
-    #       algolia_api_key: ${{ secrets.ALGOLIA_WRITE_API_KEY }}
-    #       file: '.algolia/docsearch-scrapper-config.json'
-
     steps:
-      - name: check out code 🛎
-        uses: actions/checkout@v2
-      # when scraping the site, inject secrets as environment variables
-      # then pass their values into the Docker container using "-e" syntax
-      # and inject config.json contents as another variable
-      - name: scrape the site 🧽
-        env:
+      - uses: actions/checkout@v2
+      - uses: darrenjennings/algolia-docsearch-action@master
+        with:
           algolia_application_id: ${{ secrets.ALGOLIA_APPLICATION_ID }}
-          algolia_api_key: ${{ secrets.ALGOLIA_WRITE_API_KEY }}          
-        run: |
-          docker run \
-          -e algolia_application_id -e algolia_api_key \
-          -e CONFIG="$(cat .algolia/docsearch-scrapper-config.json)" \
-          algolia/docsearch-scraper:v1.15.0   
+          algolia_api_key: ${{ secrets.ALGOLIA_WRITE_API_KEY }}
+          file: '.algolia/docsearch-scrapper-config.json'
+
+    # steps:
+    #   - name: check out code 🛎
+    #     uses: actions/checkout@v2
+    #   # when scraping the site, inject secrets as environment variables
+    #   # then pass their values into the Docker container using "-e" syntax
+    #   # and inject config.json contents as another variable
+    #   - name: scrape the site 🧽
+    #     env:
+    #       algolia_application_id: ${{ secrets.ALGOLIA_APPLICATION_ID }}
+    #       algolia_api_key: ${{ secrets.ALGOLIA_WRITE_API_KEY }}          
+    #     run: |
+    #       docker run \
+    #       -e algolia_application_id -e algolia_api_key \
+    #       -e CONFIG="$(cat .algolia/docsearch-scrapper-config.json)" \
+    #       algolia/docsearch-scraper:v1.15.0   
