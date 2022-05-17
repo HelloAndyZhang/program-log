@@ -7,9 +7,10 @@
 
 [![CI](https://github.com/HelloAndyZhang/docs-site/workflows/CI/badge.svg)](https://github.com/HelloAndyZhang/docs-site/actions/workflows/ci.yml)
 
+<!--
+
 [![GH-Pages Status](https://github.com/HelloAndyZhang/docs-site/actions/workflows/gh-page.yml/badge.svg)](https://github.com/HelloAndyZhang/docs-site/actions/workflows/gh-page.yml)
 
-<!--
 **HelloAndyZhang/HelloAndyZhang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -24,19 +25,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=cobalt) -->
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=cobalt)
 
-<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact) -->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact)
+
+![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue)
 
 
-<!-- ![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue)  -->
-
-
-##### Coding Time
-<!--START_SECTION:waka-->
-
-```text
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
