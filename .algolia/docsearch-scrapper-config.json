@@ -27,5 +27,6 @@
       "lang"
     ]
   },
+  "stop_urls": [],
   "scrape_start_urls": false
 }
