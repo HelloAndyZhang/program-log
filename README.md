@@ -1,6 +1,6 @@
-<h2 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?color=333333&lines=Hi there, I'm AndyZhang 👋&center=true&size=27">
-</h2>
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?lines=Hi%20there%2C%20I'm%20AndyZhang%20%F0%9F%91%8B&center=true&size=27&color=333333"/>
+</h1>
 </br>
 <!-- https://helloandyzhang.github.io/docs-site/ -->
 <div align="center">
