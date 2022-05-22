@@ -1,34 +1,26 @@
-### Hi there 👋
+<p align="center">
+    <h2 align="center">Hi there, I'm AndyZhang 👋</h2>
+</p>
 
-<!-- ![R](image/20220304/header_.bzdxkhl6c94.webp) -->
-
-##### Badges
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/HelloAndyZhang/HelloAndyZhang)
-
-[![CI](https://github.com/HelloAndyZhang/docs-site/workflows/CI/badge.svg)](https://github.com/HelloAndyZhang/docs-site/actions/workflows/ci.yml)
-
-<!--
-
-[![GH-Pages Status](https://github.com/HelloAndyZhang/docs-site/actions/workflows/gh-page.yml/badge.svg)](https://github.com/HelloAndyZhang/docs-site/actions/workflows/gh-page.yml)
-
-**HelloAndyZhang/HelloAndyZhang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=cobalt)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact)
-
-![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue)
+</br>
+<!-- https://helloandyzhang.github.io/docs-site/ -->
+<p align="center">
+    <img alt="CI" src="https://github.com/HelloAndyZhang/docs-site/workflows/CI/badge.svg" />
+    <img alt="CI" src="https://img.shields.io/github/commit-activity/y/HelloAndyZhang/HelloAndyZhang" />
+</p>
 
 
+<h3 align="left">GitHub Stats</h3>
+<p>
+  <img  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HelloAndyZhang&theme=github" />
+</p>
+<p>
+    <img height="215" src="https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=cobalt" />
+    <img height="215" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact">
+</p>
+<p>
+    <img src="https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue">
+</p>
+
+
+![github-contribution-grid-snake](https://raw.githubusercontent.com/HelloAndyZhang/docs-site/main/image/github-contribution-grid-snake.svg)
