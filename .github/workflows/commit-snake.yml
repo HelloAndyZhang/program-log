@@ -21,12 +21,12 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            image/github-contribution-grid-snake.svg
-            image/github-contribution-grid-snake-dark.svg?palette=github-dark
-            image/github-contribution-grid-snake-ocean.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            static/contribution-snake/github-contribution-grid-snake.svg
+            static/contribution-snake/github-contribution-grid-snake-dark.svg?palette=github-dark
+            static/contribution-snake/github-contribution-grid-snake-ocean.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Push to GitHub
         uses: EndBug/add-and-commit@v7.2.1
         with:
           branch: main
-          message: 'Generate Contribution Snake'
+          message: ':rocket: Generate Contribution Snake'

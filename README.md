@@ -1,6 +1,6 @@
-<p align="center">
-    <h2 align="center">Hi there, I'm AndyZhang 👋</h2>
-</p>
+<h2 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/??color=333333&lines=Hi there, I'm AndyZhang 👋&center=true&size=27">
+</h2>
 
 </br>
 <!-- https://helloandyzhang.github.io/docs-site/ -->
@@ -24,3 +24,5 @@
 
 
 ![github-contribution-grid-snake](https://raw.githubusercontent.com/HelloAndyZhang/docs-site/main/image/github-contribution-grid-snake-dark.svg)
+
+
