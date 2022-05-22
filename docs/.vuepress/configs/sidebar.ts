@@ -88,6 +88,15 @@ export const Sidebar = sidebar({
             ],
             collapsable: true,
         },
+        {
+            text: 'CI/CD',
+            prefix: "/Web/CI/",
+            icon: 'ci',
+            children: [
+                'wakaTime.md',
+            ],
+            collapsable: true,
+        },
     ],
     '/MacOS/': [
         {

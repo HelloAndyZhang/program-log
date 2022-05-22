@@ -1,7 +1,8 @@
 {
   "index_name": "docs_site",
   "start_urls": [
-    "https://tgy.ink/"
+    "https://tgy.ink/",
+    "https://tgy.ink/Web/"
   ],
   "selectors": {
     "lvl0": {

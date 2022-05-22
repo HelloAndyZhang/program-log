@@ -1,3 +1,10 @@
+---
+title: wakatime 配置
+---
+# wakatime 配置
+
+```
+
 name: WakaTime
 
 on:
@@ -23,3 +30,6 @@ jobs:
           # TIME_RANGE: last_30_days
           TIME_RANGE: last_7_days
           COMMIT_MESSAGE: Updated the README
+```
+
+
