@@ -1,28 +1,31 @@
 <h2 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/??color=333333&lines=Hi there, I'm AndyZhang 👋&center=true&size=27">
+    <img src="https://readme-typing-svg.herokuapp.com/?color=333333&lines=Hi there, I'm AndyZhang 👋&center=true&size=27">
 </h2>
-
 </br>
 <!-- https://helloandyzhang.github.io/docs-site/ -->
-<p align="center">
-    <img alt="CI" src="https://github.com/HelloAndyZhang/docs-site/workflows/CI/badge.svg" />
-    <img alt="CI" src="https://img.shields.io/github/commit-activity/y/HelloAndyZhang/HelloAndyZhang" />
-</p>
+<div align="center">
+    <img alt="gh-page" src="https://github.com/HelloAndyZhang/docs-site/workflows/gh-page/badge.svg" />
+    <img alt="commit-activity" src="https://img.shields.io/github/commit-activity/y/HelloAndyZhang/HelloAndyZhang" />
+    <img alt="GitHub-Profile-3D-Contrib" src="https://github.com/HelloAndyZhang/docs-site/actions/workflows/profile-3d.yml/badge.svg" />
+    <img alt="algolia-scraper" src="https://github.com/HelloAndyZhang/docs-site/actions/workflows/algolia-scraper.yml/badge.svg" />
+    <img alt="Generate Snake" src="https://github.com/HelloAndyZhang/docs-site/actions/workflows/commit-snake.yml/badge.svg" />
+</div>
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/HelloAndyZhang/docs-site/main/static/contribution-snake/github-contribution-grid-snake.svg" width="100%" />
+</div>
 
 
 <h3 align="left">GitHub Stats</h3>
-<p>
-  <img  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HelloAndyZhang&theme=dracula" />
-</p>
-<p>
-    <img width="360"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact&theme=dracula">
-    <img  height="170" src="https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=dracula" />
-</p>
-<p>
-    <img src="https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=dracula">
-</p>
 
+<div align="center">
+    <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact&theme=dracula">
+    <img height="137px" src="https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=dracula" />
+</div>
 
-![github-contribution-grid-snake](https://raw.githubusercontent.com/HelloAndyZhang/docs-site/main/image/github-contribution-grid-snake-dark.svg)
+<div align="center">
+  <img  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HelloAndyZhang&theme=dracula"  />
+</div>
 
-
+<div align="center" >
+    <img src="https://raw.githubusercontent.com/HelloAndyZhang/docs-site/main/static/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/></div>
