@@ -4,7 +4,7 @@ export const Navbar = navbar([
   // NavbarItem
   {
     text: 'Web',
-    link: '/Web/TypeScript/tsconfig配置.md',
+    link: '/Web/',
     icon: "javascript",
     activeMatch: "^/Web/",
   },
