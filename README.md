@@ -12,15 +12,15 @@
 
 <h3 align="left">GitHub Stats</h3>
 <p>
-  <img  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HelloAndyZhang&theme=github" />
+  <img  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HelloAndyZhang&theme=dracula" />
 </p>
 <p>
-    <img height="215" src="https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=cobalt" />
-    <img height="215" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact">
+    <img width="360"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=HelloAndyZhang&layout=compact&theme=dracula">
+    <img  height="170" src="https://github-readme-stats.vercel.app/api?username=HelloAndyZhang&theme=dracula" />
 </p>
 <p>
-    <img src="https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=rogue">
+    <img src="https://activity-graph.herokuapp.com/graph?username=HelloAndyZhang&theme=dracula">
 </p>
 
 
-![github-contribution-grid-snake](https://raw.githubusercontent.com/HelloAndyZhang/docs-site/main/image/github-contribution-grid-snake.svg)
+![github-contribution-grid-snake](https://raw.githubusercontent.com/HelloAndyZhang/docs-site/main/image/github-contribution-grid-snake-dark.svg)
