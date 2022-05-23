@@ -1,0 +1,31 @@
+{
+    "index_name": "PaoTuiJsSDK",
+    "start_urls": [
+        "https://bomb.uupt.com/jssdk/"
+    ],
+    "selectors": {
+        "lvl0": {     
+            "selector": ".__dumi-default-menu-list .active",
+            "default_value": "Documentation",
+            "global": true
+        },
+        "lvl1": ".markdown h1",
+        "lvl2": ".markdown h3",
+        "lvl3": ".markdown h4",
+        "lvl4": ".markdown h5",
+        "lvl5": ".markdown h6",
+        "text": ".markdown p,.markdown ul li,.markdown ol li",
+        "lang": {
+            "selector": "/html/@lang",
+            "type": "xpath",
+            "global": true
+        }
+    },
+    "custom_settings": {
+        "attributesForFaceting": [
+            "lang"
+        ]
+    },
+    "stop_urls": [],
+    "scrape_start_urls": false
+}
