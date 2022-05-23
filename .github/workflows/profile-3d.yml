@@ -17,7 +17,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
       - name: Mv & Commit & Push
         run: |
-          mv -f profile-3d-contrib/ static 
+          mv  profile-3d-contrib/ -f static 
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
