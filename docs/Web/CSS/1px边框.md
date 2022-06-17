@@ -3,7 +3,7 @@ title: 1px边框
 ---
 # 1px边框
 
-::: demo  一像素边框
+::: normal-demo  一像素边框
 
 ```html
 <div class="scale-1px" ></div>
@@ -43,7 +43,7 @@ document.querySelector(".scale-1px").addEventListener("click", () => {
 :::
 
 
-::: demo  一像素边框 四边
+::: normal-demo  一像素边框 四边
 
 ```html
 
