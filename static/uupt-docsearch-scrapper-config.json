@@ -1,7 +1,7 @@
 {
     "index_name": "PaoTuiJsSDK",
     "start_urls": [
-        "https://bomb.uupt.com/jssdk/"
+        "https://js-sdk-web.vercel.app/"
     ],
     "selectors": {
         "lvl0": {     
