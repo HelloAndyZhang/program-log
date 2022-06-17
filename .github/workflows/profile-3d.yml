@@ -19,8 +19,13 @@ jobs:
         run: |
           rm -rf static/profile-3d-contrib
           mv  profile-3d-contrib/ -f static 
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m ":rocket: Generate Profile-3D"
-          git push
+# git config user.name github-actions
+# git config user.email github-actions@github.com
+# git add -A .
+# git commit -m ":rocket: Generate Profile-3D"
+# git push
+      - name: Push to GitHub
+        uses: EndBug/add-and-commit@v7.2.1
+        with:
+          branch: main
+          message: ':rocket: Generate Contribution Snake'
