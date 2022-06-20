@@ -1,8 +1,8 @@
 {
-  "name": "helloandyzhang",
+  "name": "docs-site",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:HelloAndyZhang/HelloAndyZhang.git",
+  "repository": "git@github.com:HelloAndyZhang/docs-site.git",
   "author": "helloandyzhang <972997077@qq.com>",
   "license": "MIT",
   "scripts": {
