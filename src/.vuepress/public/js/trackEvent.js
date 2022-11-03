@@ -33,3 +33,9 @@ aplus_queue.push({
     arguments: ['aplus-idtype', 'xxxx'] //取值参考见附表1
 });
 /******************************************************************/
+// <!-- Google tag (gtag.js) -->
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-1KH0MQHXPE');

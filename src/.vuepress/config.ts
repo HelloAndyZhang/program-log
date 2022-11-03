@@ -57,6 +57,14 @@ export default defineUserConfig({
         src: `/js/trackEvent.js`,
       }
     ],
+    [
+      "script",
+      {
+        type: "text/javascript",
+        src: `https://www.googletagmanager.com/gtag/js?id=G-1KH0MQHXPE`,
+      }
+    ],
+    
   ],
   alias: {
     // '@MigrationTool': path.resolve(__dirname, './components/MigrationTool.vue'),
