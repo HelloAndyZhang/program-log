@@ -2,6 +2,10 @@ import { defineUserConfig } from "@vuepress/cli";
 import { docsearchPlugin } from '@vuepress/plugin-docsearch';
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import themeConfig from "./themeConfig";
+import { getDirname, path } from "@vuepress/utils";
+
+const __dirname = getDirname(import.meta.url);
+
 export default defineUserConfig({
   // 站点配置
   lang: 'zh-CN',
@@ -60,6 +64,7 @@ export default defineUserConfig({
     ],
   ],
   alias: {
+    "@swiper": path.resolve(__dirname, "components/swiper.vue"),
     // '@MigrationTool': path.resolve(__dirname, './components/MigrationTool.vue'),
     // '@theme-hope/components/HomePage': path.resolve(
     //   __dirname,
