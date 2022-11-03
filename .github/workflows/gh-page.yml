@@ -43,7 +43,7 @@ jobs:
 
       # 运行构建脚本
       - name: Build VuePress site
-        run: yarn docs:build
+        run: yarn  build:webpack
 
       # 导航到构建输出目录 # 发布到自定义域名
       - name: CD VuePress site

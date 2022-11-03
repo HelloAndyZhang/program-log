@@ -1,5 +1,4 @@
 import { navbar } from 'vuepress-theme-hope';
-import type { HopeThemeNavbarConfig } from "vuepress-theme-hope";
 export const Navbar = navbar([
   // NavbarItem
   {

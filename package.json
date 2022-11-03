@@ -1,19 +1,39 @@
 {
   "name": "docs-site",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:HelloAndyZhang/docs-site.git",
   "author": "helloandyzhang <972997077@qq.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:build": "vuepress build docs"
+    "build:vite": "vuepress-vite build src",
+    "build:vite-debug": "cross-env DEBUG=vuepress* vuepress-vite build src",
+    "build:webpack": "vuepress-webpack build src",
+    "build:webpack-debug": "cross-env DEBUG=vuepress* vuepress-webpack build src",
+    "dev:vite": "vuepress-vite dev src",
+    "dev:vite-clean": "vuepress-vite dev src --clean-cache",
+    "dev:vite-debug": "cross-env DEBUG=vuepress* vuepress-vite dev src",
+    "dev:webpack": "vuepress-webpack dev src",
+    "dev:webpack-clean": "vuepress-webpack dev src --clean-cache",
+    "dev:webpack-debug": "cross-env DEBUG=vuepress* vuepress-webpack dev src",
+    "lint": "prettier --check --write .",
+    "lint:check": "prettier --check .",
+    "lint-md": "markdownlint **/*.md --ignore node_modules --fix",
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "dependencies": {
-    "@vuepress/plugin-docsearch": "^2.0.0-beta.48",
-    "@vuepress/plugin-search": "^2.0.0-beta.48",
-    "vuepress": "^2.0.0-beta.48",
-    "vuepress-theme-hope": "^2.0.0-beta.84"
+    "@vuepress/cli": "2.0.0-beta.53",
+    "@vuepress/client": "2.0.0-beta.53",
+    "@vuepress/plugin-docsearch": "2.0.0-beta.53",
+    "sass-loader": "13.1.0",
+    "vue": "3.2.41",
+    "vuepress-theme-hope": "2.0.0-beta.119",
+    "vuepress-vite": "2.0.0-beta.53",
+    "vuepress-webpack": "2.0.0-beta.53"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "markdownlint-cli": "0.32.2",
+    "prettier": "2.7.1"
   }
 }
