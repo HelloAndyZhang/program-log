@@ -22,6 +22,7 @@ export default hopeTheme({
       // sup: true,
       // tasklist: true,
       // tex: true,
+      presentation: true,
     },
   },
 });
