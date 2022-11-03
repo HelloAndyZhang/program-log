@@ -9,8 +9,8 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   // 站点配置
   lang: 'zh-CN',
-  title: ' ', //阑风伏雨
-  description: ' ', //常用文档
+  title: 'AndyZhang', //阑风伏雨
+  description: '常用文档', //常用文档
   head: [
     /** 移动端禁止缩放 */
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no, minimal-ui' }],
