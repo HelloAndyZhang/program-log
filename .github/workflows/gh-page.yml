@@ -47,7 +47,7 @@ jobs:
 
       # 导航到构建输出目录 # 发布到自定义域名
       - name: CD VuePress site
-        run:  echo 'tgy.ink' > docs/.vuepress/dist/CNAME
+        run:  echo 'tgy.ink' > src/.vuepress/dist/CNAME
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
@@ -56,7 +56,7 @@ jobs:
           # 部署到 gh-pages 分支
           target_branch: gh-pages
           # 部署目录为 VuePress 的默认输出目录
-          build_dir: docs/.vuepress/dist
+          build_dir: src/.vuepress/dist
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
