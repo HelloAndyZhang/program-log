@@ -1,5 +1,6 @@
 import { defineUserConfig } from "@vuepress/cli";
 import { docsearchPlugin } from '@vuepress/plugin-docsearch';
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import themeConfig from "./themeConfig";
 export default defineUserConfig({
   // 站点配置
@@ -57,14 +58,6 @@ export default defineUserConfig({
         src: `/js/trackEvent.js`,
       }
     ],
-    [
-      "script",
-      {
-        type: "text/javascript",
-        src: `https://www.googletagmanager.com/gtag/js?id=G-1KH0MQHXPE`,
-      }
-    ],
-    
   ],
   alias: {
     // '@MigrationTool': path.resolve(__dirname, './components/MigrationTool.vue'),
@@ -85,6 +78,10 @@ export default defineUserConfig({
   },
   theme: themeConfig,
   plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-1KH0MQHXPE',
+      debug:true
+    }),
     docsearchPlugin({
       apiKey: 'eb4e6af4f85378c063c2fb82ffa621fe',
       indexName: 'docs_site',
