@@ -1,6 +1,5 @@
 import { defineUserConfig } from "@vuepress/cli";
 import { docsearchPlugin } from '@vuepress/plugin-docsearch';
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import themeConfig from "./themeConfig";
 import { getDirname, path } from "@vuepress/utils";
 
@@ -83,10 +82,6 @@ export default defineUserConfig({
   },
   theme: themeConfig,
   plugins: [
-    googleAnalyticsPlugin({
-      id: 'G-1KH0MQHXPE',
-      debug:true
-    }),
     docsearchPlugin({
       apiKey: 'eb4e6af4f85378c063c2fb82ffa621fe',
       indexName: 'docs_site',
