@@ -28,7 +28,7 @@
     "sass-loader": "13.1.0",
     "swiper": "^8.4.4",
     "vue": "3.2.41",
-    "vuepress-theme-hope": "2.0.0-beta.119",
+    "vuepress-theme-hope": "2.0.0-beta.121",
     "vuepress-vite": "2.0.0-beta.53",
     "vuepress-webpack": "2.0.0-beta.53"
   },

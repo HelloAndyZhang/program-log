@@ -16,7 +16,7 @@
     :scrollbar="{ el: '.swiper-scrollbar', draggable: true }"
   >
     <swiper-slide v-for="(item, index) in swiperList" :key="index">
-      <img :src="item.imgPic" alt="" />
+      <img :src="item.imgPic" alt="" style="pointer-events: none" />
     </swiper-slide>
   </swiper>
 
@@ -54,7 +54,7 @@
   <div class="swiper-scrollbar"></div> -->
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent, reactive, toRefs } from "vue";
 //这里拆分了模块，按需引入，注意一些模块需要引入css才能生效
 import {
@@ -66,11 +66,9 @@ import {
   Mousewheel,
 } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/vue";
-import SwiperType from "swiper/types"; //引入类型文件
 import "swiper/css";
 import "swiper/scss/pagination";
 import "swiper/scss/scrollbar";
-
 export default defineComponent({
   setup() {
     const state = reactive({
@@ -97,8 +95,7 @@ export default defineComponent({
         },
       ],
     });
-
-    const onSwiper = (swiper: SwiperType.Swiper) => {
+    const onSwiper = (swiper) => {
       console.log(swiper);
     };
     const onSlideChange = () => {
