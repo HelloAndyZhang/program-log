@@ -21,6 +21,7 @@
     "lint-md": "markdownlint **/*.md --ignore node_modules --fix",
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
+  "packageManager": "pnpm@8.15.1",
   "dependencies": {
     "@vue/repl": "3.4.0",
     "@vuepress/bundler-vite": "^2.0.0-rc.6",
