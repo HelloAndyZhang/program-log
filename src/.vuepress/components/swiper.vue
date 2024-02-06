@@ -16,7 +16,7 @@
     :scrollbar="{ el: '.swiper-scrollbar', draggable: true }"
   >
     <swiper-slide v-for="(item, index) in swiperList" :key="index">
-      <img :src="item.imgPic" alt="" style="pointer-events: none" />
+      <img :src="item.imgPic" alt=""   style="pointer-events: none;object-fit: cover;" />
     </swiper-slide>
   </swiper>
 

@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "declaration": false,
+    "diagnostics": false,
+    "downlevelIteration": false,
+    "esModuleInterop": false,
+    "exactOptionalPropertyTypes": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "listEmittedFiles": true,
+    "noEmitHelpers": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "baseUrl": "./",
+    "target": "ES2021",
+    "lib": ["ESNext"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "paths": {
+      "@theme-hope/*": ["vuepress-theme-hope/*.js"]
+    }
+  },
+  "include": [
+    "./__tests__/**/*.ts",
+    "./scripts/**/*.ts",
+    "./site/.vuepress/**/*.ts",
+    "./typings/**/*.ts"
+  ]
+}

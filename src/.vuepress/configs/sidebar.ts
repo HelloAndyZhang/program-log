@@ -13,7 +13,7 @@ export const Sidebar = sidebar({
                 'tsconfig配置.md',
                 '工具函数.md',
             ],
-            collapsable: true,
+            collapsible: true,
         },
         {
             text: 'JavaScript',
@@ -23,7 +23,7 @@ export const Sidebar = sidebar({
                 '常用函数.md',
                 '数组技巧.md',
             ],
-            collapsable: true,
+            collapsible: true,
         },
         {
             text: '框架',
@@ -33,7 +33,7 @@ export const Sidebar = sidebar({
                 'React.md',
                 'Vue.md',
             ],
-            collapsable: true,
+            collapsible: true,
         },
         {
             text: '工具',
@@ -43,7 +43,7 @@ export const Sidebar = sidebar({
                 'Git.md',
                 'NPM.md',
             ],
-            collapsable: true,
+            collapsible: true,
         },
         {
             text: 'HTML',
@@ -52,7 +52,7 @@ export const Sidebar = sidebar({
             children: [
                 'meta模板.md',
             ],
-            collapsable: true,
+            collapsible: true,
         },
         {
             text: 'CSS',
@@ -66,7 +66,7 @@ export const Sidebar = sidebar({
                 '样式兼容.md',
                 '常用样式.md',
             ],
-            collapsable: true,
+            collapsible: true,
         },
 
         {
@@ -76,7 +76,7 @@ export const Sidebar = sidebar({
             children: [
                 'chrome调试.md',
             ],
-            collapsable: true,
+            collapsible: true,
         },
         {
             text: '移动端',
@@ -86,7 +86,7 @@ export const Sidebar = sidebar({
                 'MiniProgram.md',
                 "Mobile.md",
             ],
-            collapsable: true,
+            collapsible: true,
         },
         {
             text: 'CI/CD',
@@ -95,7 +95,7 @@ export const Sidebar = sidebar({
             children: [
                 'wakaTime.md',
             ],
-            collapsable: true,
+            collapsible: true,
         },
     ],
     '/MacOS/': [
@@ -171,7 +171,7 @@ export const Sidebar = sidebar({
                 "whereis命令.md",
                 "which命令.md",
             ],
-            collapsable: true,
+            collapsible: true,
         },
         'Shortcuts.md',
         "zshrc区别.md",

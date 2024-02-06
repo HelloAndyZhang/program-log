@@ -16,13 +16,16 @@ export default hopeTheme({
   plugins: {
     mdEnhance: {
       // enableAll: true,
+      gfm:true,
       demo: true,
+      tabs:true,
+      codetabs:true,
       // codegroup: true,
       // sub: true,
       // sup: true,
       // tasklist: true,
       // tex: true,
-      presentation: true,
+      vuePlayground:true,
     },
   },
-});
+}, { custom: true });

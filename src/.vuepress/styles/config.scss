@@ -3,9 +3,6 @@ $code-dark-theme: "atom-dark";
 :root {
     --home-page-width: 100%;
 }
-.home.project {
-    padding: 0;
-    .theme-hope-content {
-        padding-bottom: 0;
-    }
+.theme-hope-content {
+    padding: 0 !important;
 }
