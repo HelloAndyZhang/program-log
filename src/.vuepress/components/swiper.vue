@@ -75,7 +75,7 @@ export default defineComponent({
       swiperList: [
         {
           imgPic:
-            "https://raw.githubusercontent.com/HelloAndyZhang/docs-site/main/static/image/20200731/5719b6ea5397f.jpg",
+            "https://raw.githubusercontent.com/HelloAndyZhang/program-log/main/static/image/20200731/5719b6ea5397f.jpg",
         },
         {
           imgPic:

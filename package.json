@@ -1,7 +1,7 @@
 {
-  "name": "docs-site",
+  "name": "program-log",
   "version": "1.0.0",
-  "repository": "git@github.com:HelloAndyZhang/docs-site.git",
+  "repository": "git@github.com:HelloAndyZhang/program-log.git",
   "author": "helloandyzhang <972997077@qq.com>",
   "license": "MIT",
   "type": "module",
